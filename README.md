@@ -23,15 +23,14 @@ AirAware/
 ## 🧰 Technologies Used
 
 ### 🔹 Backend (Java - Spring Boot)
-- Spring Boot 3.x
+- Spring Boot 3.4.4
 - Spring Data JPA
 - Spring Security (JWT-based)
 - Apache Kafka (inter-service communication)
-- Lombok
 - Gradle
 
 ### 🔹 Frontend
-- ReactJS 18+
+- ReactJS 18.3.1
 - React Router DOM
 - Context API
 - Axios
@@ -41,7 +40,7 @@ AirAware/
 - Kafka Producer
 
 ### 🔹 Predictor
-- Python 3.10+
+- Python 3.11
 - Django REST Framework
 - Pandas / Scikit-learn (for ML)
 
@@ -72,7 +71,7 @@ AirAware/
 - Publishes data to Kafka
 
 ### 🔐 `backend/`
-- Admin/User APIs
+- User APIs
 - Email/OTP notifications
 - Auth with JWT
 - Kafka consumers for AQI + OTP topics
@@ -98,9 +97,9 @@ AirAware/
 ## 🚀 How to Run
 
 ### Prerequisites
-- Java 17+
-- Node.js 18+
-- Python 3.10+
+- Java 23
+- Node 22.15.0
+- Python 3.11
 - Kafka & Zookeeper running
 - PostgreSQL
 - Gradle
