@@ -42,7 +42,6 @@ AirAware/
 ### 🔹 Predictor
 - Python 3.11
 - Django REST Framework
-- Pandas / Scikit-learn (for ML)
 
 ### 🔹 Payment Gateway
 - Kafka event-driven logging
